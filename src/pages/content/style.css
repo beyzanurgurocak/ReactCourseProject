@@ -1,0 +1,94 @@
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  width: 400px;
+  height: 500px;
+  gap: 5px;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 7px;
+}
+
+.content h5 {
+  text-align: center;
+}
+
+.sosyal {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.sosyal a:hover {
+  color: #401b9c;
+  text-align: center;
+  text-decoration: none;
+}
+.sosyal a {
+  color: black;
+  font-weight: bold;
+}
+.sosyal i {
+  font-size: large;
+}
+.sosyallink {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#facebook {
+  color: #1877f2;
+}
+
+.formflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border: 1px solid grey;
+  padding: 5px;
+}
+.formflex input {
+  outline: none;
+  border: none;
+}
+.form-action {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background-color: white;
+}
+.form-action i {
+  color: grey;
+}
+#btnoturum {
+  background-color: #A435F0;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 0%;
+  border: none;
+  color: white;
+  text-align: center;
+}
+#btnoturum:hover {
+  background-color: #7325a3;
+ 
+}
+.sifre{
+    gap: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.sifre a{
+    color: #6B1B9C;
+}
+#kaydol{
+    text-decoration: underline;
+    color: #6B1B9C;
+}
+

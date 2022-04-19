@@ -1,0 +1,21 @@
+.header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+ 
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+}
+.footer{
+    width: 100%;
+    height:50vh;
+}
